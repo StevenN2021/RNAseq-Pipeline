@@ -3,8 +3,8 @@
 # This file runs HISAT2 to align RNA-Seq reads to a reference genome and converts to bam files
 
 REF_DIR="/Users/stevennguyen/Bioinformatics/software/hisat2-2.2.1/hisat_indices/grch38"
-FASTQ_DIR="/Users/stevennguyen/Bioinformatics/rnaseqdemo/data"
-OUTPUT_DIR="/Users/stevennguyen/RNAseq-Pipeline/hisat2_results"
+FASTQ_DIR="/Users/stevennguyen/Bioinformatics/rnaseqdemo/data/raw/"
+OUTPUT_DIR="/Users/stevennguyen/Bioinformatics/rnaseqdemo/data/aligned"
 
 #hisat2 command
 hisat2 -q --rna-strandness R -x $REF_DIR/genome -U $FASTQ_DIR/demo_trimmed.fastq \

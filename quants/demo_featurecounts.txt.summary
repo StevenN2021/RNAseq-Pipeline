@@ -1,0 +1,15 @@
+Status	/Users/stevennguyen/RNAseq-Pipeline/hisat2_results/demo_trimmed_sorted.bam
+Assigned	849454
+Unassigned_Unmapped	86564
+Unassigned_Read_Type	0
+Unassigned_Singleton	0
+Unassigned_MappingQuality	0
+Unassigned_Chimera	0
+Unassigned_FragmentLength	0
+Unassigned_Duplicate	0
+Unassigned_MultiMapping	261333
+Unassigned_Secondary	0
+Unassigned_NonSplit	0
+Unassigned_NoFeatures	145577
+Unassigned_Overlapping_Length	0
+Unassigned_Ambiguity	87332
